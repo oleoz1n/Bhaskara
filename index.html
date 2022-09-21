@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equação 2</title>
+    <style>
+      section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 90vh;
+      }
+      input {
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+        border-bottom: 1;
+        border-width: 1px;
+        outline: 0;
+        width: 100px;
+        min-width: 10px;
+        height: 20px;
+        text-align: center;
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>
+        <input type="number" id="a" />
+        <h1>x²</h1>
+        <input type="number" id="b" />
+        <h1>x</h1>
+        <input type="number" id="c" />
+        <h1>=0</h1>
+      </div>
+      <button id="botao" onclick="capturar(), expressar()">calcular</button>
+      <h1 id="h1"></h1>
+    </section>
+    <script src="/script.js"></script>
+  </body>
+</html>
